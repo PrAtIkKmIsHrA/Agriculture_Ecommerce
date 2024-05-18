@@ -1,0 +1,13 @@
+.Carousel {
+  padding-top:95px;
+  height: 90vh;
+  width: 100%;
+  border: 1px solid yellowgreen; 
+  max-width: 1425px; 
+  margin: 0 auto;
+  overflow: hidden; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer; 
+}
+

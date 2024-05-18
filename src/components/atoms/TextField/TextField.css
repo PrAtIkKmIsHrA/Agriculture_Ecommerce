@@ -1,0 +1,27 @@
+.storybook-textfield {
+  font-family: 'Times New Roman', Times, serif;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  border : 2px solid black;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.storybook-textfield--small {
+  font-size: 12px;
+  height: 12px;
+  width: 200px;
+
+}
+.storybook-textfield--medium {
+  font-size: 14px;
+  height: 20px;
+  width:250px;
+
+}
+.storybook-textfield--large {
+  font-size: 18px;
+  height: 30px;
+  width:350px;
+
+}

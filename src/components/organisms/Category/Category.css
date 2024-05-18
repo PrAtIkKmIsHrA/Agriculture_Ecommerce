@@ -1,0 +1,57 @@
+.category-section {
+  text-align: center;
+  padding: 3rem;
+}
+
+.category-title {
+  margin-bottom: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold; /* Add some weight to the text */
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  grid-gap: 2rem; /* Spacing between categories */
+}
+
+.category-card {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 20px; /* Rounded corners */
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff; /* White background */
+  width: 13rem; /* Adjust width for desired size */
+  height: 15rem; /* Adjust height for desired size */ /* Increased size */
+  margin: 0 auto; /* Center cards horizontally */
+}
+
+.category-card:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+}
+
+.category-image {
+  width:fit-content; /* Fill the card container (reduced size) */
+  height:87%; /* Adjust image height */
+  object-fit: cover; /* Crop image to fit */
+}
+
+.category-link {
+  display:contents;
+  padding: 1rem 0;
+  text-decoration:underline; /* Removed underline */
+  color: #124d00; /* Text color (remove blue) */
+  text-align: center;
+  font-family: "Roboto", sans-serif; /* Example font for links */
+  font-weight: bold; /* Bold link text */
+  position: absolute; /* Position the link absolutely */
+  bottom: 0; /* Place the link at the bottom */
+  left: 50%; /* Center the link horizontally */
+  transform: translate(-50%, 50%); /* Offset the link for centering */
+}
+
+.category-link:hover {
+  color: #000; /* Change hover color (optional) */
+}
